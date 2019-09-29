@@ -1,0 +1,56 @@
+baseURL = "https://ozenvolkan.github.io/"
+publishdir = "../ozenvolkan.github.io"
+languageCode = "en-us"
+title = "Volkan Özen"
+theme = "ezhil"
+paginate = 5
+
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+googleAnalytics = "UA-123-45"
+disqusShortname = "localhost"
+
+[params]
+	subtitle = "personal webpage."
+	disableDisqusTypes = ["page"]
+	featherIconsCDN = true
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/ozenvolkan"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/volkozen"
+
+[[params.social]]
+name = "RSS"
+icon = "rss"
+url = "/index.xml"
+
+[taxonomies]
+   tag = "tags"
